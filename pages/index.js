@@ -7,7 +7,7 @@ function render(badname) {
     <fieldset>
         <legend for="user">选择一个用户名吧</legend>
         <p>
-            <input type="text" name="user" placeholder="lyynb">
+            <input type="text" name="user">
             <input type="submit" value="开始解谜">
         </p>
         ${badname !== undefined ? html`<p style="color: red">不能有更多的"${badname}"了</p>` : ""}
